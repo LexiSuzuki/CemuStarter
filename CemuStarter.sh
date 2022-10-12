@@ -18,7 +18,7 @@ select menu in "${options[@]}"; do
         #Used for Updating Cemu
         "Update")
             echo "Updating..."
-        #please chang these paths according where you store Cemu
+        #please change these paths according where you store Cemu
 	    cd ~/
 	    git clone --recursive https://github.com/cemu-project/Cemu
 	    cd Cemu
